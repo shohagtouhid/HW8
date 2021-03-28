@@ -1,0 +1,57 @@
+/* Common start */
+	body{
+		margin: 0;
+		padding: 0;
+	}
+/* Common end */
+/* header start */
+header{
+	border: 1px solid red;
+	padding: 20px 0;
+}
+.container{
+	margin: 0 auto;
+	width: 80%;
+	/*border: 1px solid black;*/
+	overflow: hidden;
+}
+.logo{
+width: 17%;
+/*border: 1px solid;*/
+float: left;
+}
+.logo a{
+	display: block;
+}
+.logo a img{
+	width: 100%;
+}
+
+.menu{
+width: 75%;
+/*border: 1px solid;*/
+float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	color: black;
+	display: block;
+	text-decoration: none;
+	padding: 0 15px;
+}
+.menu ul li a:hover{
+	color: #BC243D;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+/* header end */
